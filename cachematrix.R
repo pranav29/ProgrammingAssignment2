@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         get <- function() x
         
         ##This function stores the inverse of matrix "x"
-        setInverse <- function(mean) m <<- mean
+        setInverse <- function(invMatrix) m <<- invMatrix
         
         ##This function returns the value of inverse of matrix "x"
         getInverse <- function() m
